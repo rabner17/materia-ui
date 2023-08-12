@@ -22,7 +22,7 @@ import ManIcon from "@mui/icons-material/Man";
 import WomanIcon from "@mui/icons-material/Woman";
 import PermContactCalendarIcon from "@mui/icons-material/PermContactCalendar";
 import { Link } from "react-router-dom";
-import { BrowserRouter as Router,  Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Blog from "./Blog";
 import Contact from "./Contact";
 import Catalogo from "./Catalogo";
@@ -129,7 +129,7 @@ export default function MiniDrawer() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap component="div">
-            Tienda de ropa
+            TIENDA DE ROPA AMERICANA
           </Typography>
         </Toolbar>
       </AppBar>

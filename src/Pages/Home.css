@@ -1,0 +1,55 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+  }
+  
+  .carousel-container {
+    max-width: 1000px; /* Ajusta el ancho del carrusel según tus preferencias */
+    margin: 0 auto;
+  }
+  
+  .carousel-producto {
+    position: relative;
+    text-align: center;
+  }
+  
+  .carousel-producto img {
+    width: 100%; /* Cambia el ancho de la imagen al 100% */
+    max-height: 400px; /* Ajusta la altura máxima de la imagen según tus preferencias */
+    object-fit: cover; /* Asegura que la imagen se ajuste al contenedor */
+  }
+  
+  .producto-info {
+    position: ;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 0px;
+    border-radius: 05px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .producto-info h2 {
+    margin: 05;
+  }
+  
+  .precio {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  .comprar-btn {
+    background-color: #ff5500;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 05px;
+    cursor: pointer;
+  }
+  
